@@ -181,7 +181,7 @@ def main(debug=False):
     log('Total cost: ${0}'.format(p.cost), True)
     log('Total number of steps taken: {0}'.format(p.moves), True)
     log('Traveled route: {0}\n'.format(', '.join(maze)), True)
-    output('Total cost: ${0}\nTota number of steps taken: {1}\nTraveled route: {2}'.format(p.cost, p.moves, ', '.join(maze)))
+    output('Total cost: ${0}\nTotal number of steps taken: {1}\nTraveled route: {2}'.format(p.cost, p.moves, ', '.join(maze)))
     return p.moves, p.captured
 
 if __name__ == '__main__':
